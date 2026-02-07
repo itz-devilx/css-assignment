@@ -1,0 +1,10 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="20" r="10" stroke="#4fd1c5" stroke-width="2" fill="none"/>
+  <text x="30" y="28"
+        font-family="Inter, Arial, sans-serif"
+        font-size="22"
+        font-weight="500"
+        fill="#ffffff">
+    perplexity
+  </text>
+</svg>

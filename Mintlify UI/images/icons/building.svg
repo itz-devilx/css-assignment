@@ -1,0 +1,16 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- background -->
+  <rect x="0" y="0" width="48" height="48" rx="12" fill="#0b0f0e"/>
+
+  <!-- building -->
+  <rect x="16" y="14" width="16" height="20" rx="2" fill="#2ee6a6"/>
+
+  <!-- windows -->
+  <rect x="19" y="17" width="3" height="3" fill="#0b0f0e"/>
+  <rect x="26" y="17" width="3" height="3" fill="#0b0f0e"/>
+  <rect x="19" y="22" width="3" height="3" fill="#0b0f0e"/>
+  <rect x="26" y="22" width="3" height="3" fill="#0b0f0e"/>
+
+  <!-- door -->
+  <rect x="22.5" y="26" width="3" height="8" fill="#0b0f0e"/>
+</svg>

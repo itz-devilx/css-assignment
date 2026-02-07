@@ -1,0 +1,57 @@
+<svg
+  width="160"
+  height="160"
+  viewBox="0 0 160 160"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- background -->
+  <circle cx="80" cy="80" r="78" fill="#0b0f0e"/>
+
+  <!-- outer ring -->
+  <circle cx="80" cy="80" r="68"
+          fill="none"
+          stroke="#2a2f2e"
+          stroke-width="2"/>
+
+  <!-- inner ring -->
+  <circle cx="80" cy="80" r="52"
+          fill="none"
+          stroke="#2a2f2e"
+          stroke-width="1"/>
+
+  <!-- center text -->
+  <text x="80" y="70"
+        text-anchor="middle"
+        font-family="Inter, Arial, sans-serif"
+        font-size="20"
+        font-weight="600"
+        fill="#e5e7eb">
+    AICPA
+  </text>
+
+  <text x="80" y="95"
+        text-anchor="middle"
+        font-family="Inter, Arial, sans-serif"
+        font-size="18"
+        font-weight="600"
+        fill="#e5e7eb">
+    SOC II
+  </text>
+
+  <!-- circular text path -->
+  <defs>
+    <path
+      id="circleTextPath"
+      d="M80,80 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/>
+  </defs>
+
+  <text
+    font-family="Inter, Arial, sans-serif"
+    font-size="8"
+    letter-spacing="2"
+    fill="#9ca3af">
+    <textPath href="#circleTextPath" startOffset="5%">
+      AMERICAN INSTITUTE OF CPAs • AMERICAN INSTITUTE OF CPAs
+    </textPath>
+  </text>
+</svg>
